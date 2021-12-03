@@ -1,2 +1,2 @@
-export * from './aws';
-export { AWSOptions } from './types';
+export * from "./aws";
+export * from "./types";
