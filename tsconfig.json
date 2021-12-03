@@ -1,14 +1,16 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
+    "module": "CommonJS",
     "target": "es2015",
     "declaration": true,
     "outDir": "./dist",
     "esModuleInterop": true,
-    "rootDir": "."
+    "strict": true,
+    "rootDir": ".",
+    "baseUrl": ".",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true
   },
-  "include": [
-    "bin",
-    "src"
-  ]
+  "include": ["src"],
+  "exclude": ["./node_modules"]
 }

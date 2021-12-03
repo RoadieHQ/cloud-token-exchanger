@@ -1,0 +1,16 @@
+name: CI
+on: pull_request
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install modules
+        run: yarn install
+      - name: Compile
+        run: yarn tsc 
+      - name: Prettier Check
+        run: yarn prettier --check .
+      - name: Unit Tests
+        run: yarn test || true
