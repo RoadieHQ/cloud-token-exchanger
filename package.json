@@ -19,7 +19,7 @@
     "tsc": "tsc",
     "test": "ts-node ./src/test.ts"
   },
-  "author": "Nicolas Arnold <nic@roadie.io>",
+  "author": "Roadie <engineering@roadie.io>",
   "license": "MIT",
   "private": false,
   "devDependencies": {
