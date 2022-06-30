@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cloud-token-exchanger
+  annotations:
+    github.com/project-slug: RoadieHQ/cloud-token-exchanger
+spec:
+  type: other
+  lifecycle: unknown
+  owner: engineering
